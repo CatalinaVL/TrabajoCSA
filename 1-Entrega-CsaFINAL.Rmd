@@ -1,6 +1,6 @@
 ---
 title: Documento abierto y transparente, CSA
-date: "15-06-2020"
+date: "29-07-2020"
 output: 
   html_document: 
     code_folding: hide
