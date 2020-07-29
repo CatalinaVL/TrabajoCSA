@@ -1,6 +1,6 @@
 #-----Codigo de Preparacion de datos------
 
-#  Cargar librer?as 
+#  Cargar librerias 
 pacman::p_load(dplyr,stargazer, car, sjlabelled, summarytools)
 options(scipen=999)
 
@@ -43,14 +43,14 @@ proc_Desiguales$Pos_ninez_x <- set_label(x = proc_Desiguales$Pos_ninez_x,label =
 get_label(proc_Desiguales$Pos_soc_Y)
 get_label(proc_Desiguales$Pos_ninez_x)
 
-#----Descriptivos para la base creada-------
+#------ Descriptivos para la base creada-------
 stargazer(proc_Desiguales,type = "text")
 
 dfSummary(proc_Desiguales, plain.ascii = FALSE)
 view(dfSummary(proc_Desiguales, headings=FALSE))
 
 
-#---- Guardar Base procesada
+#------- Guardar Base procesada ------
 save(proc_Desiguales,file= "input/data/proc/proc_Desiguales.RData")
 
 

@@ -10,8 +10,8 @@ output:
     theme: journal
     toc_float: yes
     toc: yes
-bibliography: "../input/bib/bibliografia.bib"
-csl: "../input/bib/apa.csl"
+bibliography: "input/bib/bibliografia.bib"
+csl: "input/bib/apa.csl"
 link-citations: yes
 editor_options: 
   chunk_output_type: inline
@@ -23,13 +23,13 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 Sys.setlocale("LC_ALL","ES_ES.UTF-8")
 
 ```
-##### *__Nombre__: Catalina Vidal*
+##### *__Integrantes__: Carlos Arriagada González, Catalina Vidal Lloncon*
 
-##### *__Curso__: Estadística Multivariada*
+##### *__Universidad de Chile__*
 
-##### *__Profesor__: Juan Carlos Castillo* 
+##### *__Curso__: Ciencia Social Abierta*
 
-##### *__Sección__: 1* 
+##### *__Profesor__: Juan Carlos Castillo*  
 
 
 # **Movilidad social en Chile** 
@@ -53,7 +53,7 @@ En consecuencia, estudios como el de @acastilloTODOSSOMOSCLASE2013, han concluid
 ## Metodología 
 
 ### **1. Descripción de la base de datos**
-```{r}
+```{r, echo=TRUE, eval=FALSE}
 #  Cargar librerias
 pacman::p_load(dplyr,stargazer, car, sjlabelled, summarytools, citr, sjmisc, sjPlot, ggplot2, webshot)
 webshot::install_phantomjs( force = T)
@@ -62,7 +62,7 @@ options(scipen=999)
 
 ```{r}
 #  Abrir base de datos 
-load(file = "../input/data/proc/proc_Desiguales.RData")
+load(file = "input/data/proc/proc_Desiguales.RData")
 View(proc_Desiguales)
 ```
 
@@ -89,7 +89,7 @@ En la [Tabla 1](#tabla-1.-estadísticos-descriptivos-de-las-variables) se muestr
 dfSummary(proc_Desiguales, plain.ascii = FALSE)
 ```
 
-![](../output/tablas/tabla1.png)
+![](output/tablas/tabla1.png)
 
 
 ## Análisis
@@ -115,7 +115,7 @@ Grafico3
 
 ```
 
-![](../output/graficos/grafico3.png)
+![](output/graficos/grafico3.png)
 
 #### Gráfico 2 
 
@@ -126,7 +126,7 @@ Grafico2 <- plot_scatter(proc_Desiguales, Pos_ninez_x, Pos_soc_Y, dot.size =0.5,
 Grafico2
 ```
 
-![](../output/graficos/grafico2.png)
+![](output/graficos/grafico2.png)
 
 #### Tabla 2. Matriz de correlación entre la variable Posición social actual y Posición social en la infancia 
 ```{r echo=TRUE, eval=FALSE}
@@ -141,7 +141,7 @@ sjt.corr(proc_Desiguales, triangle = "lower")
 
 <center>
 
-![](../output/tablas/tabla2.png)
+![](output/tablas/tabla2.png)
 
 </center>
 
@@ -172,7 +172,7 @@ sjPlot::tab_model(Regresion, show.ci=FALSE)
 
 <center>
 
-![](../output/tablas/regresion_tab.png)
+![](output/tablas/regresion_tab.png)
 
 </center>
 
@@ -207,7 +207,7 @@ Grafico4 <- ggplot(proc_Desiguales, aes(x=Pos_ninez_x, y=Pos_soc_Y))+
 Grafico4
 ```
 
-![](../output/graficos/grafico4.png)
+![](output/graficos/grafico4.png)
 
 <div/>
 

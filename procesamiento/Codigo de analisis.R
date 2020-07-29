@@ -24,7 +24,7 @@ Correlacion <- cor(proc_Desiguales,use="complete.obs")
 Correlacion
 
 #Correlacion en la tabla y guardar
-sjt.corr(proc_Desiguales, triangle = "lower", file = "output/tablas/tabla2.html")
+tab_corr(proc_Desiguales, triangle = "lower", file = "output/tablas/tabla2.html")
 webshot("output/tablas/tabla2.html","output/tablas/tabla2.png", vwidth = 550, vheight = 220)
 
 #Grafico de nube

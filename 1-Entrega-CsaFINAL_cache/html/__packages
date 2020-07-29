@@ -1,0 +1,12 @@
+base
+dplyr
+stargazer
+carData
+car
+sjlabelled
+summarytools
+citr
+sjmisc
+sjPlot
+ggplot2
+webshot
