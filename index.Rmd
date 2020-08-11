@@ -9,10 +9,15 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-### Análisis de la Movilidad Social en Chile
+## Análisis de la Movilidad Social en Chile
 
-## Resumen
+### Resumen
 
-**La desigualdad se puede entender a través de diversos factores, entre ellos pueden encontrarse los ingresos, la segregación espacial, los niveles de educación, el campo laboral, entre muchos otros. Uno de los fenómenos que se ve influido por la desigualdad es la movilidad social o movilidad intergeneracional. 
-Chile es un ejemplo de país donde la movilidad social es reducida, lo que quiere decir que la posición social o socioeconómica de los padres influye en la posición de sus hijos en el futuro. De modo que, se han perpetuado las desigualdades dentro de la sociedad, y uno de los principales factores de ello, es la distribución desigual de los recursos y riquezas. Sin embargo, esto no quiere decir que a medida que disminuya la pobreza disminuirá también la desigualdad, pues en Chile desde hace algunas décadas ha disminuido la pobreza, pero los índices de desigualdad siguen siendo altos [@apnudDesigualesOrigenesCambios2017]. 
-Por lo anterior, es interesante saber y demostrar si efectivamente existe relación entre la posición social durante la infancia de una persona y la posición social actual de la misma, con otras palabras, si se puede predecir la posición social actual de una persona en base a su posición social en el hogar de infancia. Los resultados dan cuenta de que efectivamente existe una relación positiva entre ambas variables y que el modelo de regresión explica en un 28% la variabilidad de los datos.**
+<div style="text-align: justify">
+
+*La desigualdad se puede entender a través de diversos factores, entre ellos pueden encontrarse los ingresos, la segregación espacial, los niveles de educación, el campo laboral, entre muchos otros. Uno de los fenómenos que se ve influido por la desigualdad es la movilidad social o movilidad intergeneracional. 
+Chile es un ejemplo de país donde la movilidad social es reducida, lo que quiere decir que la posición social o socioeconómica de los padres influye en la posición de sus hijos en el futuro. De modo que, se han perpetuado las desigualdades dentro de la sociedad, y uno de los principales factores de ello, es la distribución desigual de los recursos y riquezas. Sin embargo, esto no quiere decir que a medida que disminuya la pobreza disminuirá también la desigualdad, pues en Chile desde hace algunas décadas ha disminuido la pobreza, pero los índices de desigualdad siguen siendo altos. 
+Por lo anterior, es interesante saber y demostrar si efectivamente existe relación entre la posición social durante la infancia de una persona y la posición social actual de la misma, con otras palabras, si se puede predecir la posición social actual de una persona en base a su posición social en el hogar de infancia. Los resultados dan cuenta de que efectivamente existe una relación positiva entre ambas variables y que el modelo de regresión explica en un 28% la variabilidad de los datos.*
+
+<div/>
+
