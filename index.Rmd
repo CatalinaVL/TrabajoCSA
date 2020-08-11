@@ -1,8 +1,0 @@
----
-title: "Movilidad Social en Chile"
-author: "Catalina Vidal, Carlos Arriagada"
-date: "11-08-2020"
-output: html_document
----
-
-### Resumen 
