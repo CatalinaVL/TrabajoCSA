@@ -23,6 +23,7 @@ knitr::opts_chunk$set(cache = TRUE, warning = FALSE,
 Sys.setlocale("LC_ALL","ES_ES.UTF-8")
 
 ```
+
 ##### *__Integrantes__: Carlos Arriagada González, Catalina Vidal Lloncon*
 
 ##### *__Universidad de Chile__*
