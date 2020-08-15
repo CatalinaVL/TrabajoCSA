@@ -5,7 +5,7 @@ navbar:
   title: "Ejemplo WEB"
   left:
   - text: "Movilidad social en Chile."
-    href: 1-Entrega-CsaFINAL.HTML
+    href: 1-Entrega-CsaFINAL.html
   right:
   - icon: fa-envelope fa-lg
     href: catalina.vidal@ug.uchile.cl
