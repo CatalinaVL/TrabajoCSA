@@ -5,7 +5,7 @@ navbar:
   title: "Ejemplo WEB"
   left:
   - text: "Paper"
-    href: 1-Entrega-CsaFINAL.hmtl
+    href: "1-Entrega-CsaFINAL.hmtl"
   right:
   - icon: fa-envelope fa-lg
     href: carlos.arriagada@ug.uchile.cl
