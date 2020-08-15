@@ -10,7 +10,7 @@ navbar:
   - icon: fa-envelope fa-lg
     href: catalina.vidal@ug.uchile.cl
   - icon: fa-github fa-lg
-    href: https://catalinavl.github.io/TrabajoCSA/
+    href: https://github.com/CatalinaVL/TrabajoCSA
 output:
   html_document:
     theme: cerulean 
