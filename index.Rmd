@@ -1,6 +1,6 @@
 ---
 title: "Movilidad social en Chile."
-output: html.document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
