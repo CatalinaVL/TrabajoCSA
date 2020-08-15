@@ -10,7 +10,7 @@ navbar:
   - icon: fa-envelope fa-lg
     href: carlos.arriagada@ug.uchile.cl
   - icon: fa-github fa-lg
-    href: https://github.com/CatalinaVL/TrabajoCSA.fa-github
+    href: https://catalinavl.github.io/TrabajoCSA/
 output:
   html_document:
     theme: cerulean 
