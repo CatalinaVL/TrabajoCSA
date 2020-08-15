@@ -13,6 +13,5 @@ navbar:
     href: https://github.com/CatalinaVL/TrabajoCSA
 output:
   html_document:
-    theme: cerulean 
     css: 'styles.css'
 ---
