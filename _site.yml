@@ -1,10 +1,10 @@
 ---
-name: "Mi Nombre"
+name: "Catalina Vidal, Carlos Arriagada"
 output_dir: "."
 navbar:
-  title: "Ejemplo WEB"
+  title: "Sitio WEB"
   left:
-  - text: "Movilidad social en Chile."
+  - text: "Paper"
     href: 1-Entrega-CsaFINAL.html
   right:
   - icon: fa-envelope fa-lg

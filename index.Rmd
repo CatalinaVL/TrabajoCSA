@@ -1,5 +1,5 @@
 ---
-title: "Movilidad social en Chile."
+title: "Movilidad social en Chile"
 output: html_document
 ---
 #### *Carlos Arriagada González y Catalina Vidal Lloncon*
