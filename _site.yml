@@ -7,12 +7,10 @@ navbar:
   - text: "Paper"
     href: 1-Entrega-CsaFINAL.html
   right:
-  - icon: fa-envelope fa-lg
-    href: catalina.vidal@ug.uchile.cl
   - icon: fa-github fa-lg
     href: https://github.com/CatalinaVL/TrabajoCSA
 output:
   html_document:
-    theme: cerulean 
+    theme: readable
     css: 'styles.css'
 ---
